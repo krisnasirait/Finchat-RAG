@@ -1,0 +1,68 @@
+# ========================
+# Python / General
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebooks (if used later)
+.ipynb_checkpoints
+
+# ========================
+# RAG & Data Specifics
+# ========================
+# ChromaDB persistence directory (Large binary files)
+chroma_db/
+
+# Environment variables (API Keys for OpenAI/DeepSeek etc.)
+.env
+.env.local
+
+# ========================
+# Android / Gradle (Nested)
+# ========================
+# Gradle cache and build files
+.gradle/
+**/build/
+
+# Local configuration (Contains absolute paths to SDK - DO NOT COMMIT)
+local.properties
+
+# Android Studio / IntelliJ IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Native C++ (if used in Android)
+.cxx/
+.externalNativeBuild/
+
+# Signing / Keystores (Security)
+*.jks
+*.keystore
+*.pem
+
+# Google Services (if you add Firebase later)
+google-services.json
+GoogleService-Info.plist
+
+# ========================
+# OS Generated
+# ========================
+.DS_Store
+Thumbs.db
